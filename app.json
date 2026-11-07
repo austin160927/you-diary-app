@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "You - Diary & Letters",
+    "slug": "you-diary-app",
+    "owner": "austin160927",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.austin.youdiary",
+      "adaptiveIcon": {
+        "backgroundColor": "#FAF7F0"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sharing"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "62ed1a18-c848-4ffb-aa8e-2d8212758a21"
+      }
+    }
+  }
+}
